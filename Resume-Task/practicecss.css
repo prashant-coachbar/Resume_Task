@@ -1,0 +1,125 @@
+#name{
+    font-size: 50px;
+    color: black;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    word-spacing: 0.2px;
+    text-align: left;
+}
+
+#role{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+body{
+    background-color: bisque;
+    padding: 0 200px;
+    /* font-size: 30px; */
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.skill{
+    font-weight: 700;
+    margin: 0px;
+    
+}
+.skill-description{
+    padding: 10px 0px 0px 0px;
+}
+
+#download{
+    background-color: darkcyan;
+    font-size: 25px;
+    padding-bottom: 2.5px;
+}
+.section_2, .section_3,.section_4,.section_5{
+    display: inline-block;
+    text-align: center;
+    width: 46%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.left{
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 30px;
+    width: 25%;
+    font-style: italic;
+}
+.right{
+    text-align: justify;
+    font-size: 20px;
+    width: 72%;
+}
+
+li{
+    display: inline-block;
+    text-align:left;
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+}
+.sub_section_3{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+    padding: 10px;
+    vertical-align: top;
+    margin: 0px;
+    /* right: 30px; */
+}
+.sub_section_5{
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: top;
+    
+}
+
+.date{
+    text-align: right;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    clear: right;
+}
+
+.header{
+    display: inline-block;
+    text-align: center;
+    width: 46%;
+    margin: 5px;
+    padding: 10px;
+}
+
+#contact{
+    text-align: right;
+    font-size: 20px;
+    /* padding-left: 50px; */
+    vertical-align: top;
+    border-spacing: 2px;
+}
+#bio{
+    text-align: left;
+}
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     margin: 0;
+     padding: 0;
+}
+
+.company{
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-style: italic;
+}
+
+.designation{
+    font-family: cursive;
+}
